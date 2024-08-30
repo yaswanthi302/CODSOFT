@@ -1,0 +1,26 @@
+// Get the input box element
+const inputBox = document.getElementById('inputBox');
+
+// Function to clear the input
+function clearInput() {
+    inputBox.value = '';
+}
+
+// Function to delete the last character
+function deleteLast() {
+    inputBox.value = inputBox.value.slice(0, -1);
+}
+
+// Function to append a value to the input box
+function appendToInput(value) {
+    inputBox.value += value;
+}
+
+// Function to calculate the result
+function calculateResult() {
+    try {
+        inputBox.value = eval(inputBox.value);
+    } catch {
+        inputBox.value = 'Error';
+    }
+}
