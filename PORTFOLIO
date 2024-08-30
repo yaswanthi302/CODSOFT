@@ -3,110 +3,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pamuluri yaswanthi's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .profile {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .profile img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #333;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        section {
-            margin: 20px 0;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Portfolio - pamuluri yaswanthi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Pamuluri yaswanthi</h1>
-        <p>Undergraduate in Computer Science Engineering</p>
+        <h1>pamuluri yaswanthi</h1>
+        <p>CSE Student and Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li><!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Portfolio - pamuluri yaswanthi</title>
+                    <link rel="stylesheet" href="styles.css">
+                </head>
+                <body>
+                    <header>
+                        <h1>pamuluri yaswanthi</h1>
+                        <p>CSE Student and Web Developer</p>
+                        <nav>
+                            <ul>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#certifications">Certifications</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                
+                    <section id="about">
+                        <h2>About Me</h2>
+                        <p>Hi, my name is pamuluri yaswanthi, and I am an undergraduate student in gitam univesity of computer science engineering. Throughout my academic journey, I have gained theoretical knowledge in Python, HTML, CSS, Java, C, and have completed internships where I applied my learnings in practical settings. I am confident that my skills and experiences make me a strong candidate for the Computer Science position at any esteemed company. I am currently studying Computer Science and I have learned a lot of things. I know Python, Java, C++, HTML, and CSS. I have done some projects in my college.</p>
+                    </section>
+                
+                    <section id="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Programming Languages: C, Python, Java, HTML, CSS</li>
+                        </ul>
+                    </section>
+                
+                    <section id="education">
+                        <h2>Education</h2>
+                        <p>Currently pursuing a degree in Computer Science and Engineering at Gandhi Institute of Technology and Management (GITAM). Relevant coursework includes DSA with Java, algorithms, and DBMS.</p>
+                    </section>
+                
+                    <section id="projects">
+                        <h2>Projects</h2>
+                        <div class="project">
+                            <h3>portfolio application</h3>
+                            <p>Portfolio Application. It is one of the data science projects for final year that students can be made to work on.</p>
+                            <p>Technology used: startups include portfolio websites, e-commerce sites, blogs, and online learning platforms.</p>
+                        </div>
+                        <!-- Add more projects as needed -->
+                    </section>
+                
+                    <section id="experience">
+                        <h2>Experience</h2>
+                        <div class="experience">
+                            <h3>Data Analyst Intern</h3>
+                            <p>Alteryx</p>
+                            <p>Responsibilities and achievements during the internship.</p>
+                        </div>
+                        <div class="experience">
+                            <h3>Intern</h3>
+                            <p>AWS Virtual Academy</p>
+                            <p>Responsibilities and achievements during the internship.</p>
+                        </div>
+                    </section>
+                
+                    <section id="certifications">
+                        <h2>Certifications</h2>
+                        <p>Please visit my <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b">LinkedIn profile</a> for certificates.</p>
+                    </section>
+                
+                    <section id="contact">
+                        <h2>Contact</h2>
+                        <form action="submit-contact-form" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                            
+                            <button type="submit">Send</button>
+                        </form>
+                        <p>Email: <a href="mailto:yaswanthireddy9849@gmail.com">yaswanthireddy9849@gmail.com</a></p>
+                        <p>Phone: <a href="tel:9652099844">9652099844</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b">pamuluri yaswanthi</a></p>
+                    </section>
+                
+                    <footer>
+                        <p>&copy; 2024 pamuluri yaswanthi</p>
+                    </footer>
+                </body>
+                </html>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <div class="profile">
-            <img src="file:///C:/Users/rukma/Downloads/yaswanthi%20image.jpg" alt="pamuluri yaswanthi">
-            <p>Hi, my name is Pamuluri yaswanthi. I am an undergraduate student with a strong passion for Software Engineering. Throughout my academic journey, I have gained theoretical knowledge in Python, HTML, CSS, Java,python and C. I am confident that my learning skills and experience make me a strong candidate as a Computer Science position at any esteemed company. And also we had done many project based on our subjects.And also participated in programs based on computer language</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, my name is pamuluri yaswanthi, and I am an undergraduate student in gitam univesity of computer science engineering. Throughout my academic journey, I have gained theoretical knowledge in Python, HTML, CSS, Java, C, and have completed internships where I applied my learnings in practical settings. I am confident that my skills and experiences make me a strong candidate for the Computer Science position at any esteemed company. I am currently studying Computer Science and I have learned a lot of things. I know Python, Java, C++, HTML, and CSS. I have done some projects in my college.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: C, Python, Java, HTML, CSS</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Currently pursuing a degree in Computer Science and Engineering at Gandhi Institute of Technology and Management (GITAM). Relevant coursework includes DSA with Java, algorithms, and DBMS.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>portfolio application</h3>
+            <p>Portfolio Application. It is one of the data science projects for final year that students can be made to work on.</p>
+            <p>Technology used: startups include portfolio websites, e-commerce sites, blogs, and online learning platforms.</p>
         </div>
+        <!-- Add more projects as needed -->
+    </section>
 
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:yaswanthireddy9849@gmail.com">yaswanthireddy9849@gmail.com</a></p>
-            <p>Phone Number: <a href="tel:+9652099844">965-209-9844</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b" target="_blank">www.linkedin.com/in/pamuluri-yaswanthi-30663425b</a></p>
-        </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Data Analyst Intern</h3>
+            <p>Alteryx</p>
+            <p>Responsibilities and achievements during the internship.</p>
+        </div>
+        <div class="experience">
+            <h3>Intern</h3>
+            <p>AWS Virtual Academy</p>
+            <p>Responsibilities and achievements during the internship.</p>
+        </div>
+    </section>
 
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>C</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>C++</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>Please visit my <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b">LinkedIn profile</a> for certificates.</p>
+    </section>
 
-        <section>
-            <h2>Education</h2>
-            <p>Currently pursuing as a student in Computer Science and Engineering at Gandhi Institute of Technology and Management (GITAM).</p>
-            <p>Relevant coursework: Data Structures and Algorithms with Java, Algorithms, DBMS</p>
-        </section>
-
-        <section>
-            <h2>Projects</h2>
-            <h3>Smart Helmet</h3>
-            <p><strong>Description:</strong> Our product, Smart Helmet, is a Bluetooth-based integrated system in which the bike engine only starts when the helmet is paired with the bike’s Bluetooth. It is far different from regular helmets and can be more helpful for this generation. Features include an Integrated Bluetooth system, an Integrated Air Conditioner, Lightweight and robust material, Breathable Design, Integrated speakers & mic, Solar Powered, and Water Resistant.</p>
-            <p><strong>Technology used:</strong> The technology involves a GSM module with a SIM card slot to send SMS with the location given by the GPS module. We use an Arduino UNO board with an ATmega328 microcontroller to run the GPS and GSM module.</p>
-        </section>
-    </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit-contact-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:yaswanthireddy9849@gmail.com">yaswanthireddy9849@gmail.com</a></p>
+        <p>Phone: <a href="tel:9652099844">9652099844</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b">pamuluri yaswanthi</a></p>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Pamuluri yaswanthi. All rights reserved.</p>
+        <p>&copy; 2024 pamuluri yaswanthi</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - pamuluri yaswanthi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>pamuluri yaswanthi</h1>
+        <p>CSE Student and Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, my name is pamuluri yaswanthi, and I am an undergraduate student in gitam univesity of computer science engineering. Throughout my academic journey, I have gained theoretical knowledge in Python, HTML, CSS, Java, C, and have completed internships where I applied my learnings in practical settings. I am confident that my skills and experiences make me a strong candidate for the Computer Science position at any esteemed company. I am currently studying Computer Science and I have learned a lot of things. I know Python, Java, C++, HTML, and CSS. I have done some projects in my college.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: C, Python, Java, HTML, CSS</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Currently pursuing a degree in Computer Science and Engineering at Gandhi Institute of Technology and Management (GITAM). Relevant coursework includes DSA with Java, algorithms, and DBMS.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>portfolio application</h3>
+            <p>Portfolio Application. It is one of the data science projects for final year that students can be made to work on.</p>
+            <p>Technology used: startups include portfolio websites, e-commerce sites, blogs, and online learning platforms.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Data Analyst Intern</h3>
+            <p>Alteryx</p>
+            <p>Responsibilities and achievements during the internship.</p>
+        </div>
+        <div class="experience">
+            <h3>Intern</h3>
+            <p>AWS Virtual Academy</p>
+            <p>Responsibilities and achievements during the internship.</p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>Please visit my <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b">LinkedIn profile</a> for certificates.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit-contact-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:yaswanthireddy9849@gmail.com">yaswanthireddy9849@gmail.com</a></p>
+        <p>Phone: <a href="tel:9652099844">9652099844</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/pamuluri-yaswanthi-30663425b">pamuluri yaswanthi</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 pamuluri yaswanthi</p>
     </footer>
 </body>
 </html>
